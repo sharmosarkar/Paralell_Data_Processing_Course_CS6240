@@ -1,0 +1,220 @@
+Format for Display : FileName TotalConnections MissedConnections Percentage
+9E2013.txt
+5013364
+207524
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+AA2013.txt
+23213755
+975608
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+AA2014.txt
+23540568
+1073901
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+AA2015.txt
+1779381
+76947
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+AS2013.txt
+1765864
+59805
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+AS2014.txt
+1958599
+69782
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+AS2015.txt
+152502
+7515
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+B62013.txt
+2625114
+151951
+5%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+B62014.txt
+2838949
+147634
+5%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+B62015.txt
+230319
+11892
+5%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+DL2013.txt
+40384651
+1555207
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+DL2014.txt
+45526668
+1700708
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+DL2015.txt
+3575707
+119856
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+EV2013.txt
+17617591
+853723
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+EV2014.txt
+13722088
+694975
+5%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+EV2015.txt
+861932
+37546
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+F92013.txt
+925419
+38732
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+F92014.txt
+875388
+41630
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+F92015.txt
+30311
+2163
+7%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+FL2013.txt
+2182963
+93468
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+FL2014.txt
+742691
+32892
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+HA2013.txt
+921351
+19001
+2%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+HA2014.txt
+962899
+20937
+2%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+HA2015.txt
+81421
+1841
+2%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+MQ2013.txt
+10847627
+526817
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+MQ2014.txt
+8343988
+409092
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+MQ2015.txt
+622793
+30794
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+NK2015.txt
+21963
+1554
+7%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+OO2013.txt
+10671664
+430497
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+OO2014.txt
+9724951
+422217
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+OO2015.txt
+692049
+36746
+5%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+UA2013.txt
+11661097
+511557
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+UA2014.txt
+11269644
+522547
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+UA2015.txt
+829559
+39425
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+US2013.txt
+10839622
+338375
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+US2014.txt
+10842678
+342948
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+US2015.txt
+846235
+27594
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+VX2013.txt
+351525
+17135
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+VX2014.txt
+352586
+17263
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+VX2015.txt
+25376
+1190
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+WN2013.txt
+26384851
+1035465
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+WN2014.txt
+27154407
+1170074
+4%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+WN2015.txt
+2227243
+87555
+3%
+Format for Display : FileName TotalConnections MissedConnections Percentage
+YV2013.txt
+854589
+36887
+4%

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Cluster Analysis,Comparison Report ############################################################</title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h1>Cluster Analysis,Comparison Report ############################################################</h1>
+
+<p>TEAM MEMBERS -&gt; SARITA JOSHI and SHARMODEEP SARKAR  </p>
+
+<p>#IMPLEMENTATION :  </p>
+
+<p>This project provides 12 configurations for mean, median, fast median for below infrastructures--</p>
+
+<h1>Sequential JAVA program</h1>
+
+<h1>Multi-threaded JAVA program</h1>
+
+<h1>Pseudo distributed environment</h1>
+
+<h1>AWS cluster environment</h1>
+
+<p>This project runs in a hadoop environnment with a mapper and reducer framework. For a dataset with 25 files, we have 25 Mappers working in this infrastructure and the default reducer as 1. We have even te sted our framework with 4 reducers by setting the no of reducers (setNumReducer(4))
+ After the shuffling and sorting activities internally, the end result is the key with month, Carrier and values as eiher Median or Mean or Fast Median with total number of flights. This entire data is for flights active in 2015 only.</p>
+
+<p>PACKAGES USED :<br>
+     R<br>
+     knitr<br>
+     markdown<br>
+     sbt  </p>
+
+<p>TECHNICAL DETAILS:</p>
+
+<p>Please follow the guidlines in the readme provided with the submission. It elaborates on the setup, execution and compilation procedure.  </p>
+
+<p>We have made use of Makefile and the rules within so that the rules help us to automate the entire procedure.<br>
+ ---- make pseudo // This rule runs our code in a HDFS environment.<br>
+ -----make emr // This rule runs our code in a EMR cluster setup.  </p>
+
+<p>ANALYSIS and CONCLUSION :   </p>
+
+<p>This time analysis shows that the threaded version of the code runs the fastest and beats the sequential version by a narrow margin. The reason is , the time taken to spawn the threads took some time before they started to work concurrently. Hence the sequential version worked in around 3.5 mins while the threaded version required around 2.5 (for avg) to 3.2 mins for the Fast Median. We used the Quick Select algorithm for the Fast Median Calculation and it should have taken actually lesser time than the normal median but out guess is the internal function calls among the functions for calculating the median caused some over head and slowed it down.</p>
+
+<p>Coming to the hadoop versions, the pseudo-distributed mode takes around 15 minutes (precisely 15 mins for avg, 16.3 mins for median and 17.2 mins for fast median). This is evident because we have done the configuration on our normal laptop (4 GB  RAM). The approximate time for running the code on the cluster is around 25 mins. This is in total with the cluster set up and start up. </p>
+
+<p>Inspite of these results, in the real world for huge data sets professional clusters like AWS should run the fastest, followed by pseudo-distributed hadoop (on machines with high computing and visualizing power), followed by threaded version and the highest time would be consumed by the sequential version.</p>
+
+<p>GRAPHICAL PRESENTATION:  </p>
+
+<p>TIME GRAPH: <img src="Time.png" alt=""></p>
+
+<p>GRAPH: <img src="MyGraph.png" alt=""></p>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+
+Weekly Assignments
+
+00 - Sequential Analysis
+01 - Threaded Analysis	
+02 - Cluster Analysis	
+03 - Comparisons	
+04 - Linear Regression	
+05 - Missed Connections (Map-Reduce)
+06 - Missed Connections (Spark)	
+07 - Prediction & Routing	
+08 - Distributed EC2 Sorting

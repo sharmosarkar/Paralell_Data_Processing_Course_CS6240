@@ -1,0 +1,11 @@
+Configuration,Time
+Single Threaded,3.38
+Multi Threaded (Avg),2.5
+Multi Threaded (Median),2.9
+Multi Threaded(FM),3.2
+Hadoop (Avg),15
+Hadoop (Median),16.3
+Hadoop (FM),17.2
+EMR (Avg),25
+EMR (Median),35
+EMR(FM),40
