@@ -1,0 +1,14 @@
+Demo: startup
+DemoMapper.setup
+DemoMapper.cleanup
+DemoMapper maps: 3735
+DemoMapper outputs: 30633
+DemoReducer.setup
+DemoReducer.cleanup
+There are: 4694 words starting with letters like [a-z]
+DemoReducer.setup
+DemoReducer.cleanup
+There are: 807 words starting with letters like [A-Z]
+DemoReducer.setup
+DemoReducer.cleanup
+There are: 516 words starting with letters like [.,_]  (non-letter characters)

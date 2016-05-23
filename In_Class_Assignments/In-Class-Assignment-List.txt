@@ -1,0 +1,13 @@
+
+In Class Assignments
+
+01 - Factor a Number
+02 - Play with SQLite
+03 - R programming
+04 - Complex Reducer
+05 - Join in M-R	
+06 - Starting Spark	
+07 - Fast Queries	
+08 - Sockets	
+09 - Shortest Path	
+10 - OpenCL

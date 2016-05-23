@@ -1,0 +1,7 @@
+salaries <- read.csv("Salaries.csv")
+homeruns <- read.csv("Batting.csv")
+require(ggplot2)
+mergeResult <- merge(salaries,homeruns,by=c("playerID","yearID","teamID"))
+graph <- qplot(data=mergeResult,x=salary,y=HR)
+png(filename="graphSaved.png")
+plot(graph)

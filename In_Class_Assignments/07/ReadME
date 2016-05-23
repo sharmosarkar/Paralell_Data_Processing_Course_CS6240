@@ -1,0 +1,15 @@
+
+
+To run this ::
+
+1) make clean 
+2) make run
+
+First the index must be created. For this the CreateIndex must be run first.
+Then the GetResults must be run to get the query output.
+
+The output of the CreateIndex is created at  ::  output-index/
+The output of the GetResults is at :: final-output/
+
+The runtime input to the GetResults is the playerId for whom the name, team and year needs to be retrieved.
+
